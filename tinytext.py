@@ -49,7 +49,7 @@ txtfile = file(filename,"wt")
 title = raw_input("\033[92mHEAD -->\033[0m\n").strip()
 
 ###the entry
-print "\n\n\033[92mBLOG -->\033[0m (Press CTRL-D to save and exit)"
+print "\n\n\033[92mTEXT -->\033[0m (Press CTRL-D to save and exit)"
 entry = sys.stdin.read()
 
 ###build the file
