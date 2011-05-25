@@ -53,7 +53,7 @@ print "\n\n\033[92mTEXT -->\033[0m (Press CTRL-D to save and exit)"
 entry = sys.stdin.read()
 
 ###build the file
-print >> txtfile, "HEAD: ", title,"\n", "DATE: ", datetime, "\n", "\n", "BLOG: ", entry
+print >> txtfile, "HEAD: ", title,"\n", "DATE: ", datetime, "\n", "\n", "TEXT: ", entry
 
 ###clear the terminal
 os.system("clear")
